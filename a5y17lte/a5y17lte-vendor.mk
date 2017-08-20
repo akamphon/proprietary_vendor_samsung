@@ -20,4 +20,7 @@ DEVICE_PACKAGE_OVERLAYS := vendor/samsung/a5y17lte/overlay
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
 
+# Qualcomm WiFi driver
+PRODUCT_PACKAGES += qca_cld_wlan
+
 $(call inherit-product, vendor/samsung/a5y17lte/a5y17lte-vendor-blobs.mk)

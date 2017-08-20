@@ -45,12 +45,16 @@ $(SYMLINKS):
 ALL_MODULES.$(LOCAL_MODULE).INSTALLED := \
 	$(ALL_MODULES.$(LOCAL_MODULE).INSTALLED) $(SYMLINKS)
 
-QCA_CLD := $(TARGET_OUT)/system/lib/modules
-$(QCA_CLD):
-	@mkdir -p $@/qca_cld
-	$(hide) ln -sf qca_cld/qca_cld_wlan.ko $@/wlan.ko
 
-ALL_MODULES.$(LOCAL_MODULE).INSTALLED := \
-	$(ALL_MODULES.$(LOCAL_MODULE).INSTALLED) $(QCA_CLD)
+include $(CLEAR_VARS)
+LOCAL_MODULE := qca_cld_wlan
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/lib/modules/qca_cld/qca_cld_wlan.ko
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX := .ko
+LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/modules/qca_cld
+include $(BUILD_PREBUILT)
 
 endif
