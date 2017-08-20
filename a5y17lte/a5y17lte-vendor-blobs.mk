@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5y17lte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/a5y17lte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
     vendor/samsung/a5y17lte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
-    vendor/samsung/a5y17lte/proprietary/lib/libtfa98xx_samsung.so:system/lib/libtfa98xx_samsung.so \
+    vendor/samsung/a5y17lte/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/samsung/a5y17lte/proprietary/etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
     vendor/samsung/a5y17lte/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/samsung/a5y17lte/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
@@ -105,8 +105,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5y17lte/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/a5y17lte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/a5y17lte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-    vendor/samsung/a5y17lte/proprietary/vendor/lib64/libMcClient.so:system/vendor/lib64/libMcClient.so \
-    vendor/samsung/a5y17lte/proprietary/vendor/lib64/libMcRegistry.so:system/vendor/lib64/libMcRegistry.so \
+    vendor/samsung/a5y17lte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
+    vendor/samsung/a5y17lte/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
+    vendor/samsung/a5y17lte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
+    vendor/samsung/a5y17lte/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
     vendor/samsung/a5y17lte/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/a5y17lte/proprietary/lib/hw/nfc_nci.universal7880.so:system/lib/hw/nfc_nci.universal7880.so \
     vendor/samsung/a5y17lte/proprietary/lib64/hw/nfc_nci.universal7880.so:system/lib64/hw/nfc_nci.universal7880.so \
