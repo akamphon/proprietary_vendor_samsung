@@ -137,8 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5y17lte/proprietary/lib64/libsensorhubservice.so:system/lib64/libsensorhubservice.so \
     vendor/samsung/a5y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/a5y17lte/proprietary/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
-    vendor/samsung/a5y17lte/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/samsung/a5y17lte/proprietary/lib64/libion.so:system/lib64/libion.so \
     vendor/samsung/a5y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/a5y17lte/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/a5y17lte/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
