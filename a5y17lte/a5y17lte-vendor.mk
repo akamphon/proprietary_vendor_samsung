@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5y17lte/proprietary/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
     vendor/samsung/a5y17lte/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/a5y17lte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
+    vendor/samsung/a5y17lte/proprietary/bin/cbd:system/bin/cbd \
     vendor/samsung/a5y17lte/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/a5y17lte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/a5y17lte/proprietary/bin/rild:system/bin/rild \
