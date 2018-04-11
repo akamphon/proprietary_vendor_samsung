@@ -84,8 +84,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5y17lte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/a5y17lte/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
     vendor/samsung/a5y17lte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libprotobuf-cpp-fulN.so:system/lib/libprotobuf-cpp-fulN.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libprotobuf-cpp-litN.so:system/lib/libprotobuf-cpp-litN.so \
+    vendor/samsung/a5y17lte/proprietary/lib/libprotobuf-cpp-fulN.so:system/lib/libprotobuf-cpp-fulN.so \
+    vendor/samsung/a5y17lte/proprietary/lib/libprotobuf-cpp-litN.so:system/lib/libprotobuf-cpp-litN.so \
     vendor/samsung/a5y17lte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/a5y17lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/a5y17lte/proprietary/lib/libril.so:system/lib/libril.so \
@@ -114,8 +114,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5y17lte/proprietary/lib64/libexynoscamera.so:system/lib64/libexynoscamera.so \
     vendor/samsung/a5y17lte/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
     vendor/samsung/a5y17lte/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libprotobuf-cpp-fulN.so:system/lib64/libprotobuf-cpp-fulN.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libprotobuf-cpp-litN.so:system/lib64/libprotobuf-cpp-litN.so \
+    vendor/samsung/a5y17lte/proprietary/lib64/libprotobuf-cpp-fulN.so:system/lib64/libprotobuf-cpp-fulN.so \
+    vendor/samsung/a5y17lte/proprietary/lib64/libprotobuf-cpp-litN.so:system/lib64/libprotobuf-cpp-litN.so \
     vendor/samsung/a5y17lte/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
     vendor/samsung/a5y17lte/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
     vendor/samsung/a5y17lte/proprietary/lib64/libril.so:system/lib64/libril.so \
